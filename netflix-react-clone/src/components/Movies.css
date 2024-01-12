@@ -36,15 +36,20 @@
     }
   }
 
-  .carouselContainer::-webkit-scrollbar {
-    height: 8px;
-  }
-  .carouselContainer::-webkit-scrollbar-thumb {
-    background: transparent;
-  }
-  .carouselContainer::-webkit-scrollbar-track {
-    background:transparent;
-  }
-  .carouselContainer::-webkit-scrollbar-track-piece:start {
-    background: transparent;
-  }
+.carouselContainer::-webkit-scrollbar {
+  height: 8px;
+}
+.carouselContainer::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+.carouselContainer::-webkit-scrollbar-track {
+  background:transparent;
+}
+.carouselContainer::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+}
+
+.provaCar {
+  width: 100px;
+  height: 200px;
+}

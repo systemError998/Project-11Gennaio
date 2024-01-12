@@ -1,6 +1,7 @@
 import { Component } from 'react'
 import {urlApi , apiKey } from '../dati/dati'
 
+
 import './Movies.css'
 export default class MoviesHome extends Component {
 
@@ -13,13 +14,13 @@ export default class MoviesHome extends Component {
             .then(response => response.json())
             .then(result => {
                 this.setState({ moviez: result.Search })
-                console.log(this.moviez)
             })
             .catch(error => console.log('error', error));
         }
 
     render() {
-        
+
+        console.log(this.state.moviez);
         // const { moviez } = this.state;
 
         return (
